@@ -1,0 +1,18 @@
+.label {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    font-size:large;
+  }
+  .input-group {
+    top:20px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+  }
+  .label-range {
+    margin-bottom: 2.5rem;
+  }
+ .Hr{
+  width: 91%;
+  border-width: 1px;
+ }

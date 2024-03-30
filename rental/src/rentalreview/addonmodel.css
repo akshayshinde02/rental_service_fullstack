@@ -1,0 +1,329 @@
+.maincontainer1{
+    display: flex;
+    /* gap:20rem; */
+    margin-top: 190px;
+}
+
+
+
+  .truckimgs{
+    width: 20%;
+    height: 20%;
+  }
+
+  .truckimage1{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .img1{
+    /* margin-right: 100px; */
+    /* display: flex;
+    flex-direction: row; */
+  }
+
+  .truckimg2{
+    margin-top: 40px;
+    width: 40%;
+    height: 40%;
+  }
+
+
+  .center{
+    text-align: center;
+  }
+
+  .rentalservicename{
+    text-align: center;
+  }
+
+  .responsivecon{
+    width: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+
+  .descriptions{
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    /* margin-left: 30px; */
+
+  }
+
+  .ullist{
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .maindiv2{
+    width: 50%;
+  }
+
+  /* Date and Time */
+
+  .cont1{
+
+    width: 78%;    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    /* border-radius: 80px; */
+    margin-left: 70px;
+}
+
+.colors{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.cont1,button:hover{
+
+    cursor: pointer;
+}
+
+/* .centerreview{
+  margin-left: -0%;
+} */
+
+.flexybox{
+    width: 100%;
+    display: flex;
+    margin-left: 90px;
+    /* box-shadow: 0 0 0px rgba(0, 0, 0, 0.1); */
+  /* max-width: 100%; */
+  /* text-align: center; */
+  justify-content: space-between;
+  /* gap: 3rem; */
+  
+  }
+
+  .pickupbox{
+    margin-top: 16px;
+    margin-left: -20px;
+    
+  }
+
+  .line2 {
+    position: absolute;
+    height: 3px;
+    background: gray;
+    width: 0;
+    top: 35%;
+    left: 52%;
+    z-index: -1;
+    transition: all 0.25s ease;
+  }
+
+  .dropupbox{
+    margin-top: 16px;
+    margin-right: 170px;
+    
+    }
+
+  .buttonss{
+
+    margin: 21px 200px 7px 250px;
+    justify-content: center;
+    /* padding-bottom: 0px 0px 20px 0px; */
+    background:   #0071c2;
+    color: #fff;
+    /* font-size: 1rem; */
+    font-weight: bold;
+  
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+
+  }
+
+  .buttonss:hover {
+    background: rgb(88, 56, 250);
+  }
+
+  .btn11{
+
+    padding: 10px 20px 10px 20px;
+
+  }
+
+
+  @media(max-width:768px){
+
+    .container78{
+      width: 100%;
+    }
+
+    .maincontainer1{
+      /* margin-left: -10px; */
+      flex-direction: column;
+    }
+
+    .responsivecon{
+      justify-content: center;
+      margin-left: 4%;
+    }
+
+    
+  .descriptions{
+    all:unset;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    }
+
+  .cont1{
+    all:unset;
+      width: 100%;    
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      /* justify-content: center; */
+      /* text-align: center; */
+      border-radius: 10px;
+      /* border-radius: 80px; */
+      /* margin-left: 80px; */
+  }
+
+  .flexybox{
+    all:unset;
+    /* width: 100%; */
+    display: flex;
+    margin-left: 100px;
+    /* box-shadow: 0 0 0px rgba(0, 0, 0, 0.1); */
+  /* max-width: 100%; */
+  /* text-align: center; */
+  justify-content: center;
+  /* justify-content: space-between; */
+  gap: 10rem;
+  
+  }
+
+  .maindiv2{
+    all:unset;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .centerreview{
+    /* margin-left: %; */
+  }
+  }
+
+  @media(max-width:426px){
+
+
+    .truckimgs{
+      width: 20%;
+      height: 20%;
+    }
+  
+    .responsivecon{
+      width: 100%;
+      margin-left: 18%;
+    }
+
+    
+
+    .centerreview{
+      /* all:unset; */
+      margin-left: 6%;
+      width: 120%;
+    }
+
+    .flexybox{
+
+      all:unset;
+      width: 100%;
+      display: flex;
+      margin-left: 150px;
+    justify-content: space-between;
+    gap: 4rem;
+
+
+    }
+
+    
+  .btn11{
+
+    /* padding: 10px 40px 10px 30px; */
+
+  }
+
+  }
+
+
+  @media(max-width:320px){
+
+    .responsivecon{
+      width: 100%;
+      margin-left: 1%;
+    }
+    /* .truckimg2{
+      all:unset;
+      margin-top: 40px;
+      width: 10%;
+      height: 10%;
+    } */
+
+
+    .centerreview{
+      /* all:unset; */
+      /* margin-left: 30%; */
+      all:unset;
+      width: 100%;
+    }
+
+    .flexybox{
+
+      all:unset;
+      width: 30%;
+      display: flex;
+      margin-left: 90px;
+    justify-content: space-between;
+    gap: 4rem;
+
+
+    }
+
+    
+  .cont1{
+    all:unset;
+    /* width: 78%;     */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    /* text-align: center; */
+    border-radius: 10px;
+    /* border-radius: 80px; */
+    /* margin-left: 80px; */
+}
+
+    
+  .btn11{
+
+    padding: 10px 22px 10px 22px;
+
+  }
+
+  .buttonss{
+
+    margin: 21px 200px 7px 10px;
+    justify-content: center;
+    /* padding-bottom: 0px 0px 20px 0px; */
+    background:   #0071c2;
+    color: #fff;
+    /* font-size: 1rem; */
+    font-weight: bold;
+  
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+
+  }
+
+  }

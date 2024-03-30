@@ -1,0 +1,19 @@
+.range{
+    display: flex;
+   
+    justify-content: space-between;
+   
+    width: 100%;
+}
+.range_1 p{
+   font-size: 0.8rem;
+font-weight: 500;
+}
+.range_2 p{
+   font-size: 0.8rem;
+   font-weight: 500;
+}
+
+.margindone{
+   margin-left: 23px;
+}

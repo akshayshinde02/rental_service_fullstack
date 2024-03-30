@@ -1,0 +1,61 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .stepper{
+    margin: 12px ;
+  }
+  
+  .steps-container {
+    position: relative;
+    
+  }
+
+  .progress-line {
+    position: absolute;
+    height: 3px;
+    
+    background: gray;
+    width: 0;
+    top: 40%;
+    left: 0;
+    z-index: -1;
+    transition: all 0.25s ease;
+  }
+  
+  .steps-wrapper {
+    display: flex;
+    width: 57%;
+    justify-content: space-between;
+  }
+  
+  .steps {
+    text-align: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .steps.active {
+    background-color: #242444;
+  }
+
+  .text{
+    color: white;
+  }
+
+  .key{
+
+    margin-left: 2px;
+    margin-right: -5px;
+    
+  }
+  

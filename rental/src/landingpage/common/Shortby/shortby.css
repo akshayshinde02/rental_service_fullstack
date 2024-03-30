@@ -1,0 +1,14 @@
+.short_by{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 20px;
+    width: 600px;
+    /* height:50px ; */
+}
+.short_by h4{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma,Verdana, sans-serif;
+}

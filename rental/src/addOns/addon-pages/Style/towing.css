@@ -1,0 +1,100 @@
+.towing-main{
+    max-width: 64rem; /* equivalent to max-w-4xl in Tailwind */
+    margin-left: auto;
+    margin-right: auto; /* equivalent to mx-auto in Tailwind */
+    margin-top: 5rem; /* equivalent to my-8 in Tailwind */
+    margin-bottom: 2rem; /* equivalent to my-8 in Tailwind */
+    padding: 1.5rem; /* equivalent to p-6 in Tailwind */
+    background-color: #ffffff; /* equivalent to bg-white in Tailwind */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* equivalent to shadow in Tailwind */
+    border-radius: 0.375rem; /* equivalent to rounded-md in Tailwind */
+}
+.towing-main h1{
+    font-size: 1.25rem; /* equivalent to text-xl in Tailwind */
+  font-weight: 600; /* equivalent to font-semibold in Tailwind */
+  margin-bottom: 1rem; /* equivalent to mb-4 in Tailwind */
+}
+.towing-main p{
+    margin-bottom: 1rem;
+}
+
+.towingfilter{
+    display: grid; /* equivalent to grid in Tailwind */
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* equivalent to grid-cols-3 in Tailwind */
+  gap: 1rem; /* equivalent to gap-4 in Tailwind */
+  margin-bottom: 1rem; /* equivalent to mb-4 in Tailwind */
+}
+
+.towing-page{
+  display: flex; /* equivalent to flex in Tailwind */
+  align-items: center; /* equivalent to items-center in Tailwind */
+  justify-content: space-between; /* equivalent to justify-between in Tailwind */
+  padding: 1rem; /* equivalent to p-4 in Tailwind */
+  background-color: #f9f9f9; /* equivalent to bg-[#f9f9f9] in Tailwind */
+  border-radius: 0.375rem; /* equivalent to rounded-md in Tailwind */
+  margin-bottom: 1rem; /* equivalent to mb-4 in Tailwind */
+}
+.towing-img{
+  display: flex; /* equivalent to flex in Tailwind */
+  align-items: center; /* equivalent to items-center in Tailwind */
+  gap: 1rem; /* equivalent to space-x-4 in Tailwind */
+}
+.tow-dolly h2{
+  font-weight: 600;
+}
+.tow-dolly p{
+  font-size: 0.875rem;
+}
+.tow-dolly-price span{
+  display: flex;
+  flex-direction:row-reverse;
+  margin-bottom: 8px;
+  font-size: 1.125rem; /* equivalent to text-lg in Tailwind */
+  font-weight: 600; 
+  align-items: center;
+  
+}
+.towing-button{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+
+@media (max-width:376px) {
+  
+  .towingfilter{
+    all:unset;
+    display: grid; 
+    /* grid-template-columns: repeat(3, minmax(0, 1fr));*/
+    gap: 1rem; 
+    margin-bottom: 1rem; 
+
+  }
+
+  .towing-page{
+    /* display: flex; equivalent to flex in Tailwind */
+    flex-direction: column;
+  }
+
+  .tow-dolly{
+    text-align: center;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .tow-dolly-price span{
+    all:unset;
+    margin-bottom: 8px;
+    font-size: 1.125rem; /* equivalent to text-lg in Tailwind */
+    font-weight: 600; 
+    align-items: center;
+    
+  }
+ 
+  .butn12{
+    margin-left: -23px;
+  }
+
+}
